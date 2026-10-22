@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "axiom_tinker_filter",
+  "version": "1.0.0",
+  "name": "Axiom Tinker Filter",
+  "description": "Separately disables Axiom Tinker for wool and concrete from the pause menu.",
+  "authors": ["cucuking"],
+  "environment": "client",
+  "mixins": ["axiom-tinker-filter.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "26.3",
+    "axiom": "*",
+    "java": ">=21"
+  }
+}

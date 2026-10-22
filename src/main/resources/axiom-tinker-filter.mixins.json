@@ -1,0 +1,7 @@
+{
+  "required": true,
+  "package": "de.cucuking.axiomtinkerfilter.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": ["TinkerMixin", "PauseScreenMixin"],
+  "injectors": {"defaultRequire": 1}
+}
